@@ -1,0 +1,38 @@
+.box {
+  display: inline-block;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  width: 300px;
+  height: auto;
+  background-color: #4a90e2;
+  padding: 30px;
+  border-radius: 12px;
+  margin: 20px;
+  color: white;
+}
+
+.movie-title {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.movie-author {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.movie-duration {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.movie-rate {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
